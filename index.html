@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="heading">
+    <h1>Annapurna</h1>
+  </div>
+
+  <!-- Search Section -->
+  <div class="search-container">
+    <input type="text" id="recipeInput" placeholder="Enter recipe name">
+    <button id="fetchButton">Search</button>
+  </div>
+
+  <!-- Recipe Display Section -->
+  <div class="container">
+
+    <div id="recipeImageContainer">
+      <p class="">A Local Food Recipe Maker is a website that allows users to
+        explore and discover traditional recipes from various regions or cultures. This platform typically offers a
+        database of locally sourced dishes, enabling users to search for recipes by name. The tool provides detailed
+        recipe information such as ingredients, cooking instructions, and sometimes images of the dish. It serves as a
+        culinary guide for those interested in learning about diverse cuisines, promoting local ingredients, and making
+        regional recipes accessible to a wider audience. Whether it's for home cooks looking for new dishes to try or
+        food enthusiasts eager to explore local flavors, a Local Food Recipe Maker helps bring authentic, regional
+        cuisine to the fingertips of users everywhere.</p>
+    </div>
+
+    <div class="recipe-details">
+      <h1 id="recipeName">Recipe Name</h1>
+      <p class="region" id="recipeRegion">Region</p>
+    
+
+      
+        <ul id="dietaryRestrictions">
+        </ul>
+
+      <h2>Ingredients:</h2>
+      <ul id="ingredientList">
+      </ul>
+
+      <h2>Instructions:</h2>
+      <p id="instructions"></p>
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
